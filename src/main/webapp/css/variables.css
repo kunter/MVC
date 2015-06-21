@@ -1,0 +1,35 @@
+/*серый фон страницы*/
+/*специфический голубой фон данного дизайна*/
+/*убираем скругление у блоков
+@border-radius-base: 0;
+первичные кнопки имеют голубой фон
+@btn-primary-bg: @brand-primary; 
+если ширина экрана больше 992px, то ширина контейнера 960px
+@container-md: 960px; 
+если ширина экрана больше 1200px, то ширина контейнера так же 960px
+ @container-lg: @container-md;  
+основным шрифтом будет Tahoma
+@font-family-base: Tahoma, sans-serif;
+задаем базовый размер
+@font-size-base: 12px; 
+основной цвет текста на странице
+@text-color: #8f8f8f;
+серый фон текстовых полей
+@input-bg: @panel-bg;
+серая рамка текстовых полей
+@input-border: @panel-inner-border;
+серый цвет текста в полях
+@input-color: #b2b2b2;*/
+#wrapper {
+  max-width: 97%;
+  margin: auto;
+  padding-left: 20px;
+  height: 400px;
+}
+.row {
+  max-width: auto;
+  padding-bottom: 20px;
+}
+header {
+  padding: 50px;
+}
